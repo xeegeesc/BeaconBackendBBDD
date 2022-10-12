@@ -12,6 +12,9 @@ h3{
     flex-direction: column;
     justify-content: center;
 }
+#formGetUltimaMedida{
+    margin: 50px;
+}
 .formularios{
     max-width: 60%;
 }
