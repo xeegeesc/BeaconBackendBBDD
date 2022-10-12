@@ -7,6 +7,7 @@ document.querySelector("#formGetUltimaMedida").addEventListener("submit", async 
     let dataLogin = new FormData(event.target);
     //hago la peticion get
     let ultimaMedida = await getUltimaMedida();
+    let FechaBien = new Date(ultimaMedida.Fecha);
     console.log("TODAS MEDIDAS UX: "+ultimaMedida)
         //Muestro el resultado en el "div" reservado para el resultado
         document.getElementById("resultadoGETultimaMedida").textContent="IdMedicion: "+
