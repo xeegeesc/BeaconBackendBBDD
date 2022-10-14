@@ -1,7 +1,19 @@
 <?php
+//----------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------
+//Archivo realizado por: Javier Egea Escribá
+//Nombre Archivo: ux.js
+//Descripción: Archivo en el que se encuentran las reglas del servidor que se comunica directamente con la BBDD
+//----------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------
 
 include ('conexion.php');
 
+//---------------------------------------------------------------------------------
+//  getUltimaMedida() --> ultimaMedicion{IdMedicion, Valor, TipoMedida, Fecha, Latitud, Longitud}
+//
+//
+//---------------------------------------------------------------------------------
 function getUltimaMedida(){
 
     $query="SELECT * FROM mediciones";
@@ -17,6 +29,11 @@ function getUltimaMedida(){
     }
 }
 
+//---------------------------------------------------------------------------------
+//  insertarMedida()
+//
+//(IdMedicion, Valor, TipoMedida, Fecha, Latitud, Longitud) --> insertarMedida()
+//---------------------------------------------------------------------------------
 function insertarMedida($IdMedicion, $Valor, $TipoMedida, $Fecha, $Latitud, $Longitud){
 
     $query="INSERT INTO mediciones 
