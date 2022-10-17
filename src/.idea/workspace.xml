@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8001b4b-337c-478e-bafa-d75eb016f187" name="Changes" comment="" />
+    <list default="true" id="921e0b97-7cb0-495a-a8a0-2b551c9416bf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +16,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GG4jxKkOM7cnUt1OVLq5X4DiMf" />
+  <component name="ProjectId" id="2G4h1wCSenWWWchHDRv9hbkrddj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,19 +27,27 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/vstudiorepos/BeaconBackendBBDD&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8001b4b-337c-478e-bafa-d75eb016f187" name="Changes" comment="" />
-      <created>1666001728528</created>
+      <changelist id="921e0b97-7cb0-495a-a8a0-2b551c9416bf" name="Changes" comment="" />
+      <created>1665653552341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666001728528</updated>
-      <workItem from="1666001732612" duration="1907000" />
-      <workItem from="1666004765044" duration="806000" />
+      <updated>1665653552341</updated>
+      <workItem from="1665653554789" duration="3652000" />
+      <workItem from="1665742059225" duration="665000" />
+      <workItem from="1665744698023" duration="1939000" />
     </task>
     <servers />
   </component>

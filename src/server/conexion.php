@@ -13,7 +13,13 @@
 //---------------------------------------------------------------------------------
 //  conexion() --> mysql
 //
-//
+/*
+ * Descripción conexion(): Función que realiza la conexión a la BBDD.
+ *
+ * No dispone de parámetros de entrada
+ *
+* @returns {mysql} Devuelve un un objeto mysql que se utiliza para hacer las peticiones a la BBDD.
+ */
 //---------------------------------------------------------------------------------
 function conexion(){
     $mysql=new mysqli("localhost","root","","proyecto3a");

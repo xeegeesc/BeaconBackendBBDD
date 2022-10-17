@@ -14,7 +14,13 @@ const ID_PUERTO = 'https://192.168.0.19/proyecto3a';
 //---------------------------------------------------------------------------------
 //getUltimaMedida()
 //---------------------------------------------------------------------------------
-
+/*
+ * Descripción getUltimaMedida(): Función que realiza una petición de tipo GET a la lógica de negocio.
+ *
+ * No dispone de parámetros de entrada
+ *
+ * @returns {JSON} Devuelve un Json (respuesta) el cual es transformado a objeto para ser tratado posteriormente.
+ */
 function getUltimaMedida() {
     return new Promise( (resolver, rechazar) => {
         $.ajax({

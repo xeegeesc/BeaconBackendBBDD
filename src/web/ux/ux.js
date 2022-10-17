@@ -8,8 +8,15 @@
 
 
 //----------------------------------------------------------------------------------------------------------------------------------
-//              recibirUltimaMedida
-//Descripción: funcion que llama a la funcion getUltimaMedida() de la logica fake y escribe el resultado en un div de la página
+//              getUltimaMedida
+/*Descripción: funcion que llama a la funcion getUltimaMedida() de la logica fake y escribe el resultado en un div de la página
+ *
+ *
+ * No dispone de parámetros de entrada
+ *
+ * @returns {objeto} Devuelve un objeto (ultimaMedida) con los parámetros de cualquier medicion de la
+ *                                                     BBDD(Id, Valor, Tipo, Fecha, Lat, Long).
+ */
 //----------------------------------------------------------------------------------------------------------------------------------
 
 document.querySelector("#formGetUltimaMedida").addEventListener("submit", async function(event){

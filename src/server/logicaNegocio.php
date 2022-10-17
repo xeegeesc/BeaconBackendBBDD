@@ -11,8 +11,14 @@ include ('conexion.php');
 
 //---------------------------------------------------------------------------------
 //  getUltimaMedida() --> ultimaMedicion{IdMedicion, Valor, TipoMedida, Fecha, Latitud, Longitud}
-//
-//
+
+/*
+ * Descripción getUltimaMedida(): Función que realiza una petición de tipo GET a la BBDD.
+ *
+ * No dispone de parámetros de entrada
+ *
+ * @returns {JSON} Devuelve un string en formato Json (ultimaMedicion).
+ */
 //---------------------------------------------------------------------------------
 function getUltimaMedida(){
 
@@ -33,6 +39,18 @@ function getUltimaMedida(){
 //  insertarMedida()
 //
 //(IdMedicion, Valor, TipoMedida, Fecha, Latitud, Longitud) --> insertarMedida()
+/*
+ * Descripción insertarMedida(): Función que realiza una petición de tipo POST a la BBDD.
+ *
+ * @param {Int} IdMedicion - Id de la medición insertada.
+ * @param {Real} Valor - Valor resultante (obtenido por el sensor) en la medicion insertada.
+ * @param {String} TipoMedida - Tipo de medida que se ha realizado.
+ * @param {Long} Fecha - Fecha y hora en la que se ha realizado la medicion.
+ * @param {Real} Latitud - Latitud de la posición donde se ha tomado la medicion.
+ * @param {Real} Longitud - Longitud de la posición donde se ha tomado la medicion.
+ *
+ * No devuelve nada
+ */
 //---------------------------------------------------------------------------------
 function insertarMedida($IdMedicion, $Valor, $TipoMedida, $Fecha, $Latitud, $Longitud){
 
